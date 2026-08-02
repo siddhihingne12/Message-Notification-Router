@@ -1,20 +1,5 @@
 import re
-
-OCR_MAP = {
-    "img_001": "Water Tanker Notice: Supply at Gate 2 ends 11 AM",
-    "img_002": "Ticket Refund Processing Portal - Enter Bank & OTP",
-    "img_003": "Ladakh Travel Special Package 7 Nights Rs 17999",
-    "img_004": "Deployment Release Review Notes & Incident Summary",
-    "img_007": "Shopee Package Return Courier Pickup Code",
-    "img_008": "Myntra Kurta Set Size M Sale Rs 850 Gate 2",
-    "img_010": "Special Shopping Discount Offer Balance Ready",
-    "img_011": "International School Circular Consent Form & Bus Timing",
-    "img_012": "Faculty Advising Internship Form Deadline 5 PM Today",
-    "img_023": "Society Fire Alarm Maintenance Elevators Paused 9 AM",
-    "img_024": "Nvidia TSMC Semiconductor Research Report Earnings",
-    "img_025": "Airport Plot Launch Rs 11000 Token Payment",
-    "img_026": "Safety Advisory: Brand Never Asks For OTP Or Card Details"
-}
+from stages.ocr_engine import OCREngine
 
 WHISPER_MAP = {
     "vn_001": "Hey, let me know when you reach office.",
@@ -30,9 +15,19 @@ WHISPER_MAP = {
     "vn_014": "Plot token booking launch offer audio details."
 }
 
-def process_ocr(media_id):
-    """Returns OCR text for a given image media_id."""
-    return OCR_MAP.get(media_id, "")
+_ocr_engine_instance = None
+
+def get_ocr_engine():
+    global _ocr_engine_instance
+    if _ocr_engine_instance is None:
+        _ocr_engine_instance = OCREngine("dataset")
+    return _ocr_engine_instance
+
+def process_ocr(media_id, file_path=None):
+    """Returns OCR text for a given image media_id using the OCREngine."""
+    engine = get_ocr_engine()
+    result = engine.process_image(media_id, file_path)
+    return result['text']
 
 def process_whisper(media_id):
     """Returns transcribed text for a given voice note media_id."""
@@ -54,8 +49,9 @@ def preprocess_message(msg):
     raw_text = msg.get('message_text', '') or msg.get('text', '') or ''
     media_id = msg.get('media_id', '')
     media_type = msg.get('media_type', '')
+    file_path = msg.get('file_path', '')
     
-    ocr_text = process_ocr(media_id) if media_type == 'image' else ""
+    ocr_text = process_ocr(media_id, file_path) if media_type == 'image' else ""
     whisper_text = process_whisper(media_id) if media_type == 'voice' else ""
     
     parts = []
@@ -79,7 +75,7 @@ def preprocess_message(msg):
 def preprocess_all(messages):
     """Preprocess a list of message dicts."""
     print("="*70)
-    print("  STAGE 2: PREPROCESSING")
+    print("  STAGE 2: PREPROCESSING (OCR + WHISPER + TEXT CLEANING)")
     print("="*70)
     
     ocr_count = 0
@@ -98,8 +94,8 @@ def preprocess_all(messages):
         processed.append(p_msg)
         
     print(f"  Processed {len(messages)} messages")
-    print(f"  OCR extracted: {ocr_count}")
-    print(f"  Whisper transcribed: {whisper_count}")
-    print(f"  Text cleaned: {text_count}")
+    print(f"  OCR extracted: {ocr_count} images")
+    print(f"  Whisper transcribed: {whisper_count} voice notes")
+    print(f"  Text cleaned: {text_count} messages")
     print()
     return processed

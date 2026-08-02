@@ -1,9 +1,19 @@
 """
 Stage 5: Reasoning Engine
-Implements LLM-style decision logic with a confidence gate and a fallback rule checker.
+Implements LLM-style decision logic with live API integration (Gemini/OpenAI),
+a confidence gate (< 0.60), and a deterministic rule checker fallback.
 """
+from stages.llm_client import LLMClient
 
-def build_decision(context, action, msg_type, confidence, reasons):
+_llm_client_instance = None
+
+def get_llm_client():
+    global _llm_client_instance
+    if _llm_client_instance is None:
+        _llm_client_instance = LLMClient()
+    return _llm_client_instance
+
+def build_decision(context, action, msg_type, confidence, reasons, path='LLM'):
     """Helper to structure the decision output."""
     evidence = context.get('historical_evidence', [])
     evidence_str = ';'.join(evidence) if isinstance(evidence, list) and evidence else (evidence if isinstance(evidence, str) else 'none')
@@ -16,12 +26,12 @@ def build_decision(context, action, msg_type, confidence, reasons):
         'evidence_message_ids': evidence_str if evidence_str else 'none',
         'feature_scores': context.get('feature_scores', {}),
         'attention_budget': context.get('attention_budget', {}),
-        'reasoning_path': 'LLM',
+        'reasoning_path': path,
         'confidence_gate': 'passed'
     }
 
-def reason(context):
-    """Main LLM reasoning engine logic combining feature scores and context rules."""
+def reason_heuristic(context):
+    """Local heuristic reasoning engine logic combining feature scores and context rules."""
     scores = context.get('feature_scores', {})
     msg = context.get('message', {})
     full_text = (msg.get('full_text') or msg.get('text') or '').lower()
@@ -184,6 +194,20 @@ def reason(context):
     reasons.append("Routed based on general conversational context and user activity patterns.")
     return build_decision(context, action, msg_type, confidence, reasons)
 
+def reason(context):
+    """Main reasoning entrypoint: queries LLM Client if API key set, else uses heuristic engine."""
+    client = get_llm_client()
+    if client.is_api_available():
+        api_res = client.query(context)
+        if api_res and isinstance(api_res, dict) and 'action' in api_res:
+            action = api_res.get('action', 'digest').lower()
+            msg_type = api_res.get('message_type', 'unknown')
+            confidence = float(api_res.get('confidence', 0.90))
+            reasons = api_res.get('reasons', ['LLM API decision.'])
+            return build_decision(context, action, msg_type, confidence, reasons, path=f"LLM_API_{client.provider.upper()}")
+
+    return reason_heuristic(context)
+
 def rule_checker_fallback(context):
     """Simple deterministic rules used when LLM confidence is low."""
     msg = context.get('message', {})
@@ -230,6 +254,10 @@ def reason_all(contexts):
     print("STAGE 5: Reasoning Engine")
     print("=" * 40)
 
+    client = get_llm_client()
+    mode_str = f"Live LLM API ({client.provider.upper()})" if client.is_api_available() else "Local Reasoning Engine (Heuristic)"
+    print(f"  Reasoning Mode: {mode_str}")
+
     decisions = []
     llm_count = 0
     fallback_count = 0
@@ -239,14 +267,14 @@ def reason_all(contexts):
         decision = reason(ctx)
         decision = apply_confidence_gate(decision, ctx)
 
-        if decision['reasoning_path'] == 'LLM':
+        if decision['reasoning_path'].startswith('LLM'):
             llm_count += 1
         else:
             fallback_count += 1
         stats[decision['action']] += 1
         decisions.append(decision)
 
-    print(f"  Decisions via LLM: {llm_count}")
+    print(f"  Decisions via LLM Engine: {llm_count}")
     print(f"  Fallback to Rule Checker: {fallback_count} (low confidence)")
     print(f"  NOTIFY: {stats['notify']} | DIGEST: {stats['digest']} | MUTE: {stats['mute']}\n")
     return decisions

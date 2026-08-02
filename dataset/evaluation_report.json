@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-08-02 15:24:26",
+  "total_benchmark_samples": 30,
+  "accuracy": 80.0,
+  "macro_f1": 0.8,
+  "weighted_f1": 0.8,
+  "latency_per_msg_ms": 5.94,
+  "per_class_metrics": {
+    "notify": {
+      "TP": 7,
+      "FP": 2,
+      "FN": 2,
+      "support": 9,
+      "precision": 0.7777777777777778,
+      "recall": 0.7777777777777778,
+      "f1": 0.7777777777777778
+    },
+    "digest": {
+      "TP": 10,
+      "FP": 4,
+      "FN": 1,
+      "support": 11,
+      "precision": 0.7142857142857143,
+      "recall": 0.9090909090909091,
+      "f1": 0.8
+    },
+    "mute": {
+      "TP": 7,
+      "FP": 0,
+      "FN": 3,
+      "support": 10,
+      "precision": 1.0,
+      "recall": 0.7,
+      "f1": 0.8235294117647058
+    }
+  },
+  "confusion_matrix": {
+    "notify": {
+      "notify": 7,
+      "digest": 2,
+      "mute": 0
+    },
+    "digest": {
+      "notify": 1,
+      "digest": 10,
+      "mute": 0
+    },
+    "mute": {
+      "notify": 1,
+      "digest": 2,
+      "mute": 7
+    }
+  }
+}
