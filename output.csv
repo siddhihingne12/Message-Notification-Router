@@ -1,111 +1,111 @@
 message_id,action,message_type,reason,confidence,evidence_message_ids
-msg_023,notify,business_update,Verified business sending transactional order or service update.; Matches user's active relationship / delivery history.,0.91,message_0102;message_0243
-msg_091,notify,urgent,Time-sensitive access expiration alert from personal connection.,0.85,message_0238;message_0381
+msg_023,notify,business_update,Verified business sending transactional order or service update.; Matches user's active relationship / delivery history.,0.91,message_0101;message_0243
+msg_091,notify,urgent,Time-sensitive access expiration alert from personal connection.,0.85,message_0381;message_0238
 msg_090,digest,personal,"Standard personal message with low urgency.; No immediate action required, saved for digest.",0.85,none
-msg_048,notify,urgent,Important operational update in society group.; Time-sensitive community notice relevant to daily routines.,0.89,message_0237;message_0151
-msg_040,mute,forward,Chain forward message detected (forwarded 7 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0136;message_0135
-msg_075,notify,business_update,Verified business sending transactional order or service update.; Matches user's active relationship / delivery history.,0.91,message_0206;message_0205
-msg_005,digest,promotion,Local buy/sell marketplace listing in community group.; Useful information but non-blocking for immediate attention.,0.84,message_0231;message_0049
-msg_104,notify,personal,High urgency personal context detected.; Contains time-sensitive request requiring immediate user response.,0.91,message_0232;message_0050
-msg_069,mute,forward,Chain forward message detected (forwarded 11 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0080;message_0177
-msg_107,mute,scam,Prompt injection attack detected attempting router manipulation.; Contains malicious instructions trying to bypass safety checks.,0.95,message_0213;message_0196
-msg_070,mute,scam,Suspicious credential or OTP verification request detected.; Uses high-pressure security threats (account block/lock) to induce urgency.; Unverified link or insecure authorization flow detected.,0.92,message_0213;message_0196
-msg_003,notify,business_update,Verified business sending transactional order or service update.; Matches user's active relationship / delivery history.,0.91,message_0400;message_0031
-msg_099,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0118;message_0055
-msg_008,digest,promotion,Legitimate business notification without immediate action requirement.; Can be reviewed later in routine notification digest.,0.82,message_0296;message_0071
+msg_048,notify,urgent,Important operational update in society group.; Time-sensitive community notice relevant to daily routines.,0.89,message_0100;message_0152
+msg_040,mute,forward,Chain forward message detected (forwarded 7 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0135;message_0259
+msg_075,notify,business_update,Verified business sending transactional order or service update.; Matches user's active relationship / delivery history.,0.91,message_0205;message_0206
+msg_005,digest,promotion,Local buy/sell marketplace listing in community group.; Useful information but non-blocking for immediate attention.,0.84,message_0114;message_0332
+msg_104,notify,personal,High urgency personal context detected.; Contains time-sensitive request requiring immediate user response.,0.91,message_0115;message_0116
+msg_069,mute,forward,Chain forward message detected (forwarded 11 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0079;message_0247
+msg_107,mute,scam,Prompt injection attack detected attempting router manipulation.; Contains malicious instructions trying to bypass safety checks.,0.95,message_0173;message_0045
+msg_070,mute,scam,Suspicious credential or OTP verification request detected.; Uses high-pressure security threats (account block/lock) to induce urgency.; Unverified link or insecure authorization flow detected.,0.92,message_0086;message_0173
+msg_003,notify,business_update,Verified business sending transactional order or service update.; Matches user's active relationship / delivery history.,0.91,message_0061;message_0062
+msg_099,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0249;message_0117
+msg_008,digest,promotion,Legitimate business notification without immediate action requirement.; Can be reviewed later in routine notification digest.,0.82,message_0072;message_0071
 msg_092,digest,business_update,Legitimate business notification without immediate action requirement.; Can be reviewed later in routine notification digest.,0.82,none
-msg_060,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0175;message_0404
-msg_004,notify,event,Verified business sending transactional order or service update.; Matches user's active relationship / delivery history.,0.91,message_0064;message_0245
-msg_030,digest,promotion,Local buy/sell marketplace listing in community group.; Useful information but non-blocking for immediate attention.,0.84,message_0232;message_0050
-msg_045,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0146;message_0145
-msg_052,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0159;message_0207
-msg_009,digest,event,Routine casual/social communication in group.; Non-urgent activity suitable for batched digest review.,0.83,message_0073;message_0074
-msg_071,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0197;message_0198
-msg_016,mute,scam,Suspicious credential or OTP verification request detected.; Uses high-pressure security threats (account block/lock) to induce urgency.; Unverified link or insecure authorization flow detected.,0.92,message_0202;message_0184
-msg_065,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0402;message_0185
-msg_038,mute,forward,Chain forward message detected (forwarded 10 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0131;message_0132
+msg_060,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0375;message_0176
+msg_004,notify,event,Verified business sending transactional order or service update.; Matches user's active relationship / delivery history.,0.91,message_0005;message_0063
+msg_030,digest,promotion,Local buy/sell marketplace listing in community group.; Useful information but non-blocking for immediate attention.,0.84,message_0115;message_0116
+msg_045,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0145;message_0146
+msg_052,notify,business_update,Verified business sending transactional order or service update.; Matches user's active relationship / delivery history.,0.91,message_0160;message_0208
+msg_009,digest,event,Routine casual/social communication in group.; Non-urgent activity suitable for batched digest review.,0.83,message_0074;message_0073
+msg_071,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0198;message_0197
+msg_016,mute,scam,Suspicious credential or OTP verification request detected.; Uses high-pressure security threats (account block/lock) to induce urgency.; Unverified link or insecure authorization flow detected.,0.92,message_0183;message_0024
+msg_065,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0261;message_0186
+msg_038,mute,forward,Chain forward message detected (forwarded 10 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0132;message_0131
 msg_086,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0222
-msg_014,mute,promotion,Promotional message from business account user opted out from.; User historical records show explicit promotion opt-out / high dismissal.,0.88,message_0258;message_0083
+msg_014,mute,promotion,Promotional message from business account user opted out from.; User historical records show explicit promotion opt-out / high dismissal.,0.88,message_0084;message_0017
 msg_094,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,none
-msg_029,mute,forward,Chain forward message detected (forwarded 8 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0231;message_0049
-msg_105,mute,spam,Chain forward message detected (forwarded 7 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0373;message_0233
-msg_002,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0003;message_0060
-msg_010,digest,business_update,Legitimate business notification without immediate action requirement.; Can be reviewed later in routine notification digest.,0.82,message_0011;message_0076
-msg_078,mute,forward,Chain forward message detected (forwarded 10 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0211;message_0212
-msg_013,digest,promotion,Local buy/sell marketplace listing in community group.; Useful information but non-blocking for immediate attention.,0.84,message_0081;message_0082
-msg_018,mute,forward,Chain forward message detected (forwarded 9 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0092;message_0091
-msg_044,mute,scam,Suspicious credential or OTP verification request detected.; Uses high-pressure security threats (account block/lock) to induce urgency.; Unverified link or insecure authorization flow detected.,0.92,message_0144;message_0036
-msg_032,digest,event,Routine casual/social communication in group.; Non-urgent activity suitable for batched digest review.,0.83,message_0120;message_0374
-msg_106,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0377;message_0376
-msg_006,notify,event,Important operational update in society group.; Time-sensitive community notice relevant to daily routines.,0.89,message_0029;message_0129
-msg_109,mute,scam,Prompt injection attack detected attempting router manipulation.; Contains malicious instructions trying to bypass safety checks.,0.95,message_0237;message_0151
-msg_108,mute,scam,Suspicious credential or OTP verification request detected.; Uses high-pressure security threats (account block/lock) to induce urgency.; Unverified link or insecure authorization flow detected.,0.92,message_0094;message_0236
-msg_019,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0094;message_0236
-msg_088,digest,promotion,Local buy/sell marketplace listing in community group.; Useful information but non-blocking for immediate attention.,0.84,message_0232;message_0050
-msg_056,notify,urgent,Direct mention (@u_001) overrides group mute setting.; User is explicitly tagged for direct attention.,0.90,message_0359;message_0168
-msg_027,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0272;message_0033
-msg_050,notify,event,Verified business sending transactional order or service update.; Matches user's active relationship / delivery history.,0.91,message_0155;message_0279
+msg_029,mute,forward,Chain forward message detected (forwarded 8 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0114;message_0332
+msg_105,mute,spam,Chain forward message detected (forwarded 7 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0233;message_0373
+msg_002,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0169;message_0266
+msg_010,digest,business_update,Legitimate business notification without immediate action requirement.; Can be reviewed later in routine notification digest.,0.82,message_0242;message_0075
+msg_078,mute,forward,Chain forward message detected (forwarded 10 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0212;message_0211
+msg_013,digest,promotion,Local buy/sell marketplace listing in community group.; Useful information but non-blocking for immediate attention.,0.84,message_0082;message_0081
+msg_018,mute,forward,Chain forward message detected (forwarded 9 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0026;message_0091
+msg_044,mute,scam,Suspicious credential or OTP verification request detected.; Uses high-pressure security threats (account block/lock) to induce urgency.; Unverified link or insecure authorization flow detected.,0.92,message_0143;message_0036
+msg_032,digest,event,Routine casual/social communication in group.; Non-urgent activity suitable for batched digest review.,0.83,message_0285;message_0119
+msg_106,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0234;message_0376
+msg_006,notify,event,Important operational update in society group.; Time-sensitive community notice relevant to daily routines.,0.89,message_0180;message_0269
+msg_109,mute,scam,Prompt injection attack detected attempting router manipulation.; Contains malicious instructions trying to bypass safety checks.,0.95,message_0100;message_0152
+msg_108,mute,scam,Suspicious credential or OTP verification request detected.; Uses high-pressure security threats (account block/lock) to induce urgency.; Unverified link or insecure authorization flow detected.,0.92,message_0093;message_0236
+msg_019,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0093;message_0236
+msg_088,digest,promotion,Local buy/sell marketplace listing in community group.; Useful information but non-blocking for immediate attention.,0.84,message_0115;message_0116
+msg_056,notify,urgent,Direct mention (@u_001) overrides group mute setting.; User is explicitly tagged for direct attention.,0.90,message_0040;message_0077
+msg_027,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0109;message_0110
+msg_050,notify,event,Verified business sending transactional order or service update.; Matches user's active relationship / delivery history.,0.91,message_0156;message_0279
 msg_083,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0219
-msg_063,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0181;message_0182
-msg_033,digest,greeting,Routine casual/social communication in group.; Non-urgent activity suitable for batched digest review.,0.83,message_0393;message_0372
-msg_061,mute,forward,Chain forward message detected (forwarded 8 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0080;message_0177
-msg_020,mute,scam,Suspicious credential or OTP verification request detected.; Uses high-pressure security threats (account block/lock) to induce urgency.; Unverified link or insecure authorization flow detected.,0.92,message_0095;message_0096
-msg_017,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0090;message_0089
-msg_058,mute,spam,Chain forward message detected (forwarded 10 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0123;message_0241
-msg_026,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0107;message_0108
-msg_047,notify,event,Important operational update in society group.; Time-sensitive community notice relevant to daily routines.,0.89,message_0029;message_0129
-msg_046,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0148;message_0147
-msg_042,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0057;message_0058
-msg_079,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0213;message_0196
-msg_098,notify,urgent,High urgency personal context detected.; Contains time-sensitive request requiring immediate user response.,0.91,message_0359;message_0168
-msg_037,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0029;message_0129
-msg_007,digest,event,Routine casual/social communication in group.; Non-urgent activity suitable for batched digest review.,0.83,message_0070;message_0069
+msg_063,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0182;message_0181
+msg_033,digest,greeting,Routine casual/social communication in group.; Non-urgent activity suitable for batched digest review.,0.83,message_0280;message_0122
+msg_061,mute,forward,Chain forward message detected (forwarded 8 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0079;message_0247
+msg_020,mute,scam,Suspicious credential or OTP verification request detected.; Uses high-pressure security threats (account block/lock) to induce urgency.; Unverified link or insecure authorization flow detected.,0.92,message_0114;message_0332
+msg_017,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0089;message_0090
+msg_058,mute,spam,Chain forward message detected (forwarded 10 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0040;message_0077
+msg_026,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0032;message_0108
+msg_047,notify,event,Important operational update in society group.; Time-sensitive community notice relevant to daily routines.,0.89,message_0180;message_0269
+msg_046,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0147;message_0148
+msg_042,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0140;message_0139
+msg_079,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0086;message_0173
+msg_098,notify,urgent,High urgency personal context detected.; Contains time-sensitive request requiring immediate user response.,0.91,message_0225;message_0054
+msg_037,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0180;message_0269
+msg_007,digest,event,Routine casual/social communication in group.; Non-urgent activity suitable for batched digest review.,0.83,message_0069;message_0070
 msg_085,digest,promotion,Legitimate business notification without immediate action requirement.; Can be reviewed later in routine notification digest.,0.82,message_0221
-msg_001,notify,urgent,Important operational update in society group.; Time-sensitive community notice relevant to daily routines.,0.89,message_0057;message_0058
-msg_021,digest,personal,Routine casual/social communication in group.; Non-urgent activity suitable for batched digest review.,0.83,message_0029;message_0129
-msg_028,mute,promotion,Promotional message from business account user opted out from.; User historical records show explicit promotion opt-out / high dismissal.,0.88,message_0034;message_0111
-msg_012,mute,spam,Chain forward message detected (forwarded 9 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0080;message_0177
-msg_064,mute,scam,Suspicious credential or OTP verification request detected.; Uses high-pressure security threats (account block/lock) to induce urgency.; Unverified link or insecure authorization flow detected.,0.92,message_0202;message_0184
-msg_103,notify,personal,High urgency personal context detected.; Contains time-sensitive request requiring immediate user response.,0.91,message_0231;message_0049
-msg_031,digest,event,Routine casual/social communication in group.; Non-urgent activity suitable for batched digest review.,0.83,message_0397;message_0118
-msg_057,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0003;message_0060
-msg_087,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0223;message_0392
-msg_067,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0029;message_0129
-msg_039,digest,personal,Routine casual/social communication in group.; Non-urgent activity suitable for batched digest review.,0.83,message_0209;message_0133
-msg_082,digest,event,Routine casual/social communication in group.; Non-urgent activity suitable for batched digest review.,0.83,message_0218;message_0380
-msg_066,mute,promotion,Promotional message from business account user opted out from.; User historical records show explicit promotion opt-out / high dismissal.,0.88,message_0187;message_0402
-msg_049,notify,event,Verified business sending transactional order or service update.; Matches user's active relationship / delivery history.,0.91,message_0400;message_0153
-msg_015,mute,scam,Suspicious credential or OTP verification request detected.; Uses high-pressure security threats (account block/lock) to induce urgency.; Unverified link or insecure authorization flow detected.,0.92,message_0199;message_0200
-msg_051,mute,promotion,Promotional message from business account user opted out from.; User historical records show explicit promotion opt-out / high dismissal.,0.88,message_0157;message_0257
-msg_097,notify,urgent,High urgency personal context detected.; Contains time-sensitive request requiring immediate user response.,0.91,message_0359;message_0168
+msg_001,notify,urgent,Important operational update in society group.; Time-sensitive community notice relevant to daily routines.,0.89,message_0140;message_0139
+msg_021,digest,personal,Routine casual/social communication in group.; Non-urgent activity suitable for batched digest review.,0.83,message_0180;message_0269
+msg_028,mute,promotion,Promotional message from business account user opted out from.; User historical records show explicit promotion opt-out / high dismissal.,0.88,message_0112;message_0111
+msg_012,mute,spam,Chain forward message detected (forwarded 9 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0079;message_0247
+msg_064,mute,scam,Suspicious credential or OTP verification request detected.; Uses high-pressure security threats (account block/lock) to induce urgency.; Unverified link or insecure authorization flow detected.,0.92,message_0183;message_0024
+msg_103,notify,personal,High urgency personal context detected.; Contains time-sensitive request requiring immediate user response.,0.91,message_0114;message_0332
+msg_031,digest,event,Routine casual/social communication in group.; Non-urgent activity suitable for batched digest review.,0.83,message_0249;message_0117
+msg_057,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0169;message_0266
+msg_087,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0391;message_0203
+msg_067,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0180;message_0269
+msg_039,digest,personal,Routine casual/social communication in group.; Non-urgent activity suitable for batched digest review.,0.83,message_0134;message_0403
+msg_082,digest,event,Routine casual/social communication in group.; Non-urgent activity suitable for batched digest review.,0.83,message_0397;message_0380
+msg_066,mute,promotion,Promotional message from business account user opted out from.; User historical records show explicit promotion opt-out / high dismissal.,0.88,message_0188;message_0187
+msg_049,notify,event,Verified business sending transactional order or service update.; Matches user's active relationship / delivery history.,0.91,message_0154;message_0291
+msg_015,mute,scam,Suspicious credential or OTP verification request detected.; Uses high-pressure security threats (account block/lock) to induce urgency.; Unverified link or insecure authorization flow detected.,0.92,message_0086;message_0173
+msg_051,mute,promotion,Promotional message from business account user opted out from.; User historical records show explicit promotion opt-out / high dismissal.,0.88,message_0103;message_0158
+msg_097,notify,urgent,High urgency personal context detected.; Contains time-sensitive request requiring immediate user response.,0.91,message_0225;message_0054
 msg_089,digest,personal,"Standard personal message with low urgency.; No immediate action required, saved for digest.",0.85,none
-msg_053,mute,forward,Chain forward message detected (forwarded 6 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0253;message_0161
-msg_059,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0213;message_0196
-msg_024,mute,promotion,Promotional message from business account user opted out from.; User historical records show explicit promotion opt-out / high dismissal.,0.88,message_0157;message_0257
-msg_072,mute,scam,Suspicious credential or OTP verification request detected.; Uses high-pressure security threats (account block/lock) to induce urgency.; Unverified link or insecure authorization flow detected.,0.92,message_0199;message_0200
-msg_036,digest,promotion,Legitimate business notification without immediate action requirement.; Can be reviewed later in routine notification digest.,0.82,message_0127;message_0128
-msg_076,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0159;message_0207
-msg_055,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0166;message_0387
-msg_102,notify,urgent,High urgency personal context detected.; Contains time-sensitive request requiring immediate user response.,0.91,message_0003;message_0060
-msg_080,notify,urgent,Important operational update in society group.; Time-sensitive community notice relevant to daily routines.,0.89,message_0029;message_0129
+msg_053,mute,forward,Chain forward message detected (forwarded 6 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0411;message_0162
+msg_059,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0086;message_0173
+msg_024,mute,promotion,Promotional message from business account user opted out from.; User historical records show explicit promotion opt-out / high dismissal.,0.88,message_0103;message_0158
+msg_072,mute,scam,Suspicious credential or OTP verification request detected.; Uses high-pressure security threats (account block/lock) to induce urgency.; Unverified link or insecure authorization flow detected.,0.92,message_0086;message_0173
+msg_036,digest,promotion,Legitimate business notification without immediate action requirement.; Can be reviewed later in routine notification digest.,0.82,message_0283;message_0128
+msg_076,notify,business_update,Verified business sending transactional order or service update.; Matches user's active relationship / delivery history.,0.91,message_0160;message_0208
+msg_055,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0165;message_0387
+msg_102,notify,urgent,High urgency personal context detected.; Contains time-sensitive request requiring immediate user response.,0.91,message_0169;message_0266
+msg_080,notify,urgent,Important operational update in society group.; Time-sensitive community notice relevant to daily routines.,0.89,message_0180;message_0269
 msg_093,notify,business_update,Verified business sending transactional order or service update.; Matches user's active relationship / delivery history.,0.91,none
-msg_034,mute,forward,Chain forward message detected (forwarded 11 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0123;message_0241
-msg_035,digest,promotion,Legitimate business notification without immediate action requirement.; Can be reviewed later in routine notification digest.,0.82,message_0125;message_0126
-msg_101,digest,personal,"Standard personal message with low urgency.; No immediate action required, saved for digest.",0.85,message_0268;message_0370
-msg_041,digest,promotion,Legitimate business notification without immediate action requirement.; Can be reviewed later in routine notification digest.,0.82,message_0138;message_0137
-msg_011,mute,forward,Chain forward message detected (forwarded 8 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0123;message_0241
-msg_110,mute,scam,Prompt injection attack detected attempting router manipulation.; Contains malicious instructions trying to bypass safety checks.,0.95,message_0238;message_0381
-msg_095,mute,scam,Prompt injection attack detected attempting router manipulation.; Contains malicious instructions trying to bypass safety checks.,0.95,message_0202;message_0184
-msg_074,mute,forward,Chain forward message detected (forwarded 7 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0223;message_0164
-msg_073,mute,forward,Chain forward message detected (forwarded 9 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0202;message_0184
-msg_054,mute,spam,Unsolicited financial / real estate promotion in group chat.; High risk or low relevance marketing post.,0.86,message_0223;message_0164
-msg_068,digest,personal,Routine casual/social communication in group.; Non-urgent activity suitable for batched digest review.,0.83,message_0191;message_0192
-msg_100,notify,urgent,High urgency personal context detected.; Contains time-sensitive request requiring immediate user response.,0.91,message_0118;message_0055
-msg_062,mute,forward,Chain forward message detected (forwarded 7 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0029;message_0129
+msg_034,mute,forward,Chain forward message detected (forwarded 11 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0040;message_0077
+msg_035,digest,promotion,Legitimate business notification without immediate action requirement.; Can be reviewed later in routine notification digest.,0.82,message_0281;message_0126
+msg_101,digest,personal,"Standard personal message with low urgency.; No immediate action required, saved for digest.",0.85,message_0229;message_0370
+msg_041,digest,promotion,Legitimate business notification without immediate action requirement.; Can be reviewed later in routine notification digest.,0.82,message_0137;message_0138
+msg_011,mute,forward,Chain forward message detected (forwarded 8 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0040;message_0077
+msg_110,mute,scam,Prompt injection attack detected attempting router manipulation.; Contains malicious instructions trying to bypass safety checks.,0.95,message_0381;message_0238
+msg_095,mute,scam,Prompt injection attack detected attempting router manipulation.; Contains malicious instructions trying to bypass safety checks.,0.95,message_0183;message_0024
+msg_074,mute,forward,Chain forward message detected (forwarded 7 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0391;message_0203
+msg_073,mute,forward,Chain forward message detected (forwarded 9 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0183;message_0024
+msg_054,mute,spam,Unsolicited financial / real estate promotion in group chat.; High risk or low relevance marketing post.,0.86,message_0391;message_0203
+msg_068,digest,personal,Routine casual/social communication in group.; Non-urgent activity suitable for batched digest review.,0.83,message_0192;message_0191
+msg_100,notify,urgent,High urgency personal context detected.; Contains time-sensitive request requiring immediate user response.,0.91,message_0249;message_0117
+msg_062,mute,forward,Chain forward message detected (forwarded 7 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0180;message_0269
 msg_096,digest,personal,"Standard personal message with low urgency.; No immediate action required, saved for digest.",0.85,none
-msg_043,mute,forward,Chain forward message detected (forwarded 11 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0029;message_0129
-msg_077,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0209;message_0133
-msg_081,digest,event,Routine casual/social communication in group.; Non-urgent activity suitable for batched digest review.,0.83,message_0217
-msg_025,notify,business_update,Verified business sending transactional order or service update.; Matches user's active relationship / delivery history.,0.91,message_0105;message_0106
+msg_043,mute,forward,Chain forward message detected (forwarded 11 times).; Contains repetitive non-personalized content or unverified viral broadcast.; Sender/group interaction history shows low engagement on forwards.,0.88,message_0180;message_0269
+msg_077,notify,event,Important operational update in school_group group.; Time-sensitive community notice relevant to daily routines.,0.89,message_0134;message_0403
+msg_081,notify,event,Important operational update in school_group group.; Time-sensitive community notice relevant to daily routines.,0.89,message_0217
+msg_025,notify,business_update,Verified business sending transactional order or service update.; Matches user's active relationship / delivery history.,0.91,message_0004;message_0239
 msg_084,digest,unknown,Routed based on general conversational context and user activity patterns.,0.85,message_0220
-msg_022,digest,personal,Routine casual/social communication in group.; Non-urgent activity suitable for batched digest review.,0.83,message_0099;message_0100
+msg_022,digest,personal,Routine casual/social communication in group.; Non-urgent activity suitable for batched digest review.,0.83,message_0100;message_0152

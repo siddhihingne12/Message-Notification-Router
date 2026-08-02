@@ -1,0 +1,3741 @@
+[
+  {
+    "message_id": "msg_023",
+    "decision": "notify",
+    "confidence": 0.91,
+    "message_type": "business_update",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.6,
+      "relationship": 0.3,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.6000000000000001,
+      "time_sensitivity": 0.39999999999999997,
+      "personalization": 0.3,
+      "urgency_score": 0.6,
+      "relationship_score": 0.3,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.6000000000000001,
+      "time_sensitivity_score": 0.39999999999999997,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Verified business sending transactional order or service update.",
+      "Matches user's active relationship / delivery history."
+    ]
+  },
+  {
+    "message_id": "msg_091",
+    "decision": "notify",
+    "confidence": 0.85,
+    "message_type": "urgent",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.6,
+      "relationship": 0.19999999999999998,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.9,
+      "personalization": 0.5,
+      "urgency_score": 0.6,
+      "relationship_score": 0.19999999999999998,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.9,
+      "personalization_score": 0.5
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Time-sensitive access expiration alert from personal connection."
+    ]
+  },
+  {
+    "message_id": "msg_090",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "personal",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.4,
+      "relationship": 0.4,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.6,
+      "personalization": 0.5,
+      "urgency_score": 0.4,
+      "relationship_score": 0.4,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.6,
+      "personalization_score": 0.5
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Standard personal message with low urgency.",
+      "No immediate action required, saved for digest."
+    ]
+  },
+  {
+    "message_id": "msg_048",
+    "decision": "notify",
+    "confidence": 0.89,
+    "message_type": "urgent",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.8,
+      "relationship": 0.24999999999999997,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.85,
+      "time_sensitivity": 0.8,
+      "personalization": 0.3,
+      "urgency_score": 0.8,
+      "relationship_score": 0.24999999999999997,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.85,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Important operational update in society group.",
+      "Time-sensitive community notice relevant to daily routines."
+    ]
+  },
+  {
+    "message_id": "msg_040",
+    "decision": "mute",
+    "confidence": 0.88,
+    "message_type": "forward",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.09999999999999998,
+      "relationship": 0.09999999999999998,
+      "safety": 0.7,
+      "novelty": 0.14999999999999994,
+      "importance": 0.6000000000000001,
+      "time_sensitivity": 0.5,
+      "personalization": 0.39999999999999997,
+      "urgency_score": 0.09999999999999998,
+      "relationship_score": 0.09999999999999998,
+      "safety_score": 0.7,
+      "novelty_score": 0.14999999999999994,
+      "importance_score": 0.6000000000000001,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.39999999999999997
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Chain forward message detected (forwarded 7 times).",
+      "Contains repetitive non-personalized content or unverified viral broadcast.",
+      "Sender/group interaction history shows low engagement on forwards."
+    ]
+  },
+  {
+    "message_id": "msg_075",
+    "decision": "notify",
+    "confidence": 0.91,
+    "message_type": "business_update",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.3,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.6000000000000001,
+      "time_sensitivity": 0.5,
+      "personalization": 0.3,
+      "urgency_score": 0.3,
+      "relationship_score": 0.3,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.6000000000000001,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Verified business sending transactional order or service update.",
+      "Matches user's active relationship / delivery history."
+    ]
+  },
+  {
+    "message_id": "msg_005",
+    "decision": "digest",
+    "confidence": 0.84,
+    "message_type": "promotion",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.5,
+      "relationship": 0.6,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.2,
+      "time_sensitivity": 0.8,
+      "personalization": 0.44999999999999996,
+      "urgency_score": 0.5,
+      "relationship_score": 0.6,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.2,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.44999999999999996
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Local buy/sell marketplace listing in community group.",
+      "Useful information but non-blocking for immediate attention."
+    ]
+  },
+  {
+    "message_id": "msg_104",
+    "decision": "notify",
+    "confidence": 0.91,
+    "message_type": "personal",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.4,
+      "relationship": 0.19999999999999998,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.6,
+      "personalization": 0.5,
+      "urgency_score": 0.4,
+      "relationship_score": 0.19999999999999998,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.6,
+      "personalization_score": 0.5
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "High urgency personal context detected.",
+      "Contains time-sensitive request requiring immediate user response."
+    ]
+  },
+  {
+    "message_id": "msg_069",
+    "decision": "mute",
+    "confidence": 0.88,
+    "message_type": "forward",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.09999999999999998,
+      "relationship": 0.24999999999999997,
+      "safety": 0.7,
+      "novelty": 0.14999999999999994,
+      "importance": 0.4,
+      "time_sensitivity": 0.5,
+      "personalization": 0.09999999999999998,
+      "urgency_score": 0.09999999999999998,
+      "relationship_score": 0.24999999999999997,
+      "safety_score": 0.7,
+      "novelty_score": 0.14999999999999994,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.09999999999999998
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Chain forward message detected (forwarded 11 times).",
+      "Contains repetitive non-personalized content or unverified viral broadcast.",
+      "Sender/group interaction history shows low engagement on forwards."
+    ]
+  },
+  {
+    "message_id": "msg_107",
+    "decision": "mute",
+    "confidence": 0.95,
+    "message_type": "scam",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.4,
+      "relationship": 0.19999999999999998,
+      "safety": 0.30000000000000004,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.6,
+      "personalization": 0.5,
+      "urgency_score": 0.4,
+      "relationship_score": 0.19999999999999998,
+      "safety_score": 0.30000000000000004,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.6,
+      "personalization_score": 0.5
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Prompt injection attack detected attempting router manipulation.",
+      "Contains malicious instructions trying to bypass safety checks."
+    ]
+  },
+  {
+    "message_id": "msg_070",
+    "decision": "mute",
+    "confidence": 0.92,
+    "message_type": "scam",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.24999999999999997,
+      "safety": 0.4,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.09999999999999998,
+      "personalization": 0.3,
+      "urgency_score": 0.3,
+      "relationship_score": 0.24999999999999997,
+      "safety_score": 0.4,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.09999999999999998,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Suspicious credential or OTP verification request detected.",
+      "Uses high-pressure security threats (account block/lock) to induce urgency.",
+      "Unverified link or insecure authorization flow detected."
+    ]
+  },
+  {
+    "message_id": "msg_003",
+    "decision": "notify",
+    "confidence": 0.91,
+    "message_type": "business_update",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.5,
+      "relationship": 0.3,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.6000000000000001,
+      "time_sensitivity": 0.8,
+      "personalization": 0.3,
+      "urgency_score": 0.5,
+      "relationship_score": 0.3,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.6000000000000001,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Verified business sending transactional order or service update.",
+      "Matches user's active relationship / delivery history."
+    ]
+  },
+  {
+    "message_id": "msg_099",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "unknown",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.6,
+      "relationship": 0.7,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.6,
+      "personalization": 0.65,
+      "urgency_score": 0.6,
+      "relationship_score": 0.7,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.6,
+      "personalization_score": 0.65
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routed based on general conversational context and user activity patterns."
+    ]
+  },
+  {
+    "message_id": "msg_008",
+    "decision": "digest",
+    "confidence": 0.82,
+    "message_type": "promotion",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.6,
+      "relationship": 0.5,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.39999999999999997,
+      "personalization": 0.3,
+      "urgency_score": 0.6,
+      "relationship_score": 0.5,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.39999999999999997,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Legitimate business notification without immediate action requirement.",
+      "Can be reviewed later in routine notification digest."
+    ]
+  },
+  {
+    "message_id": "msg_092",
+    "decision": "digest",
+    "confidence": 0.82,
+    "message_type": "business_update",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.3,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.6000000000000001,
+      "time_sensitivity": 0.5,
+      "personalization": 0.3,
+      "urgency_score": 0.3,
+      "relationship_score": 0.3,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.6000000000000001,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Legitimate business notification without immediate action requirement.",
+      "Can be reviewed later in routine notification digest."
+    ]
+  },
+  {
+    "message_id": "msg_060",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "unknown",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.8,
+      "relationship": 0.75,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.49999999999999994,
+      "time_sensitivity": 0.8,
+      "personalization": 0.44999999999999996,
+      "urgency_score": 0.8,
+      "relationship_score": 0.75,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.49999999999999994,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.44999999999999996
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routed based on general conversational context and user activity patterns."
+    ]
+  },
+  {
+    "message_id": "msg_004",
+    "decision": "notify",
+    "confidence": 0.91,
+    "message_type": "event",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.3,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.6000000000000001,
+      "time_sensitivity": 0.5,
+      "personalization": 0.3,
+      "urgency_score": 0.3,
+      "relationship_score": 0.3,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.6000000000000001,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Verified business sending transactional order or service update.",
+      "Matches user's active relationship / delivery history."
+    ]
+  },
+  {
+    "message_id": "msg_030",
+    "decision": "digest",
+    "confidence": 0.84,
+    "message_type": "promotion",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.09999999999999998,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.2,
+      "time_sensitivity": 0.5,
+      "personalization": 0.3,
+      "urgency_score": 0.3,
+      "relationship_score": 0.09999999999999998,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.2,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Local buy/sell marketplace listing in community group.",
+      "Useful information but non-blocking for immediate attention."
+    ]
+  },
+  {
+    "message_id": "msg_045",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "unknown",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.6,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.55,
+      "time_sensitivity": 0.5,
+      "personalization": 0.44999999999999996,
+      "urgency_score": 0.3,
+      "relationship_score": 0.6,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.55,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.44999999999999996
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routed based on general conversational context and user activity patterns."
+    ]
+  },
+  {
+    "message_id": "msg_052",
+    "decision": "notify",
+    "confidence": 0.91,
+    "message_type": "business_update",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.5,
+      "relationship": 0.3,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.6000000000000001,
+      "time_sensitivity": 0.8,
+      "personalization": 0.3,
+      "urgency_score": 0.5,
+      "relationship_score": 0.3,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.6000000000000001,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Verified business sending transactional order or service update.",
+      "Matches user's active relationship / delivery history."
+    ]
+  },
+  {
+    "message_id": "msg_009",
+    "decision": "digest",
+    "confidence": 0.83,
+    "message_type": "event",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.5,
+      "relationship": 0.44999999999999996,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.5,
+      "personalization": 0.3,
+      "urgency_score": 0.5,
+      "relationship_score": 0.44999999999999996,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routine casual/social communication in group.",
+      "Non-urgent activity suitable for batched digest review."
+    ]
+  },
+  {
+    "message_id": "msg_071",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "unknown",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.3,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.5,
+      "personalization": 0.3,
+      "urgency_score": 0.3,
+      "relationship_score": 0.3,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routed based on general conversational context and user activity patterns."
+    ]
+  },
+  {
+    "message_id": "msg_016",
+    "decision": "mute",
+    "confidence": 0.92,
+    "message_type": "scam",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.6,
+      "relationship": 0.24999999999999997,
+      "safety": 0.4,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.39999999999999997,
+      "personalization": 0.3,
+      "urgency_score": 0.6,
+      "relationship_score": 0.24999999999999997,
+      "safety_score": 0.4,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.39999999999999997,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Suspicious credential or OTP verification request detected.",
+      "Uses high-pressure security threats (account block/lock) to induce urgency.",
+      "Unverified link or insecure authorization flow detected."
+    ]
+  },
+  {
+    "message_id": "msg_065",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "unknown",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.5,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.2,
+      "time_sensitivity": 0.8,
+      "personalization": 0.3,
+      "urgency_score": 0.3,
+      "relationship_score": 0.5,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.2,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routed based on general conversational context and user activity patterns."
+    ]
+  },
+  {
+    "message_id": "msg_038",
+    "decision": "mute",
+    "confidence": 0.88,
+    "message_type": "forward",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.39999999999999997,
+      "relationship": 0.24999999999999997,
+      "safety": 0.7,
+      "novelty": 0.09999999999999992,
+      "importance": 0.4,
+      "time_sensitivity": 0.5,
+      "personalization": 0.09999999999999998,
+      "urgency_score": 0.39999999999999997,
+      "relationship_score": 0.24999999999999997,
+      "safety_score": 0.7,
+      "novelty_score": 0.09999999999999992,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.09999999999999998
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Chain forward message detected (forwarded 10 times).",
+      "Contains repetitive non-personalized content or unverified viral broadcast.",
+      "Sender/group interaction history shows low engagement on forwards."
+    ]
+  },
+  {
+    "message_id": "msg_086",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "unknown",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.5,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.5,
+      "personalization": 0.3,
+      "urgency_score": 0.3,
+      "relationship_score": 0.5,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routed based on general conversational context and user activity patterns."
+    ]
+  },
+  {
+    "message_id": "msg_014",
+    "decision": "mute",
+    "confidence": 0.88,
+    "message_type": "promotion",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.6,
+      "relationship": 0.3,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4000000000000001,
+      "time_sensitivity": 0.8,
+      "personalization": 0.3,
+      "urgency_score": 0.6,
+      "relationship_score": 0.3,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4000000000000001,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Promotional message from business account user opted out from.",
+      "User historical records show explicit promotion opt-out / high dismissal."
+    ]
+  },
+  {
+    "message_id": "msg_094",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "unknown",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.5,
+      "relationship": 0.3,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.2,
+      "time_sensitivity": 0.8,
+      "personalization": 0.3,
+      "urgency_score": 0.5,
+      "relationship_score": 0.3,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.2,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routed based on general conversational context and user activity patterns."
+    ]
+  },
+  {
+    "message_id": "msg_029",
+    "decision": "mute",
+    "confidence": 0.88,
+    "message_type": "forward",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.09999999999999998,
+      "relationship": 0.6,
+      "safety": 0.7,
+      "novelty": 0.29999999999999993,
+      "importance": 0.2,
+      "time_sensitivity": 0.5,
+      "personalization": 0.24999999999999994,
+      "urgency_score": 0.09999999999999998,
+      "relationship_score": 0.6,
+      "safety_score": 0.7,
+      "novelty_score": 0.29999999999999993,
+      "importance_score": 0.2,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.24999999999999994
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Chain forward message detected (forwarded 8 times).",
+      "Contains repetitive non-personalized content or unverified viral broadcast.",
+      "Sender/group interaction history shows low engagement on forwards."
+    ]
+  },
+  {
+    "message_id": "msg_105",
+    "decision": "mute",
+    "confidence": 0.88,
+    "message_type": "spam",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.2,
+      "relationship": 0.19999999999999998,
+      "safety": 0.6,
+      "novelty": 0.09999999999999992,
+      "importance": 0.4,
+      "time_sensitivity": 0.6,
+      "personalization": 0.3,
+      "urgency_score": 0.2,
+      "relationship_score": 0.19999999999999998,
+      "safety_score": 0.6,
+      "novelty_score": 0.09999999999999992,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.6,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Chain forward message detected (forwarded 7 times).",
+      "Contains repetitive non-personalized content or unverified viral broadcast.",
+      "Sender/group interaction history shows low engagement on forwards."
+    ]
+  },
+  {
+    "message_id": "msg_002",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "unknown",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.75,
+      "safety": 0.9,
+      "novelty": 0.8999999999999999,
+      "importance": 1.0,
+      "time_sensitivity": 0.5,
+      "personalization": 0.75,
+      "urgency_score": 0.3,
+      "relationship_score": 0.75,
+      "safety_score": 0.9,
+      "novelty_score": 0.8999999999999999,
+      "importance_score": 1.0,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.75
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routed based on general conversational context and user activity patterns."
+    ]
+  },
+  {
+    "message_id": "msg_010",
+    "decision": "digest",
+    "confidence": 0.82,
+    "message_type": "business_update",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.3,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.5,
+      "personalization": 0.3,
+      "urgency_score": 0.3,
+      "relationship_score": 0.3,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Legitimate business notification without immediate action requirement.",
+      "Can be reviewed later in routine notification digest."
+    ]
+  },
+  {
+    "message_id": "msg_078",
+    "decision": "mute",
+    "confidence": 0.88,
+    "message_type": "forward",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.39999999999999997,
+      "relationship": 0.09999999999999998,
+      "safety": 0.7,
+      "novelty": 0.29999999999999993,
+      "importance": 0.4,
+      "time_sensitivity": 0.5,
+      "personalization": 0.09999999999999998,
+      "urgency_score": 0.39999999999999997,
+      "relationship_score": 0.09999999999999998,
+      "safety_score": 0.7,
+      "novelty_score": 0.29999999999999993,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.09999999999999998
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Chain forward message detected (forwarded 10 times).",
+      "Contains repetitive non-personalized content or unverified viral broadcast.",
+      "Sender/group interaction history shows low engagement on forwards."
+    ]
+  },
+  {
+    "message_id": "msg_013",
+    "decision": "digest",
+    "confidence": 0.84,
+    "message_type": "promotion",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.5,
+      "relationship": 0.24999999999999997,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.2,
+      "time_sensitivity": 0.8,
+      "personalization": 0.3,
+      "urgency_score": 0.5,
+      "relationship_score": 0.24999999999999997,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.2,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Local buy/sell marketplace listing in community group.",
+      "Useful information but non-blocking for immediate attention."
+    ]
+  },
+  {
+    "message_id": "msg_018",
+    "decision": "mute",
+    "confidence": 0.88,
+    "message_type": "forward",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.24999999999999997,
+      "safety": 0.7,
+      "novelty": 0.29999999999999993,
+      "importance": 0.4,
+      "time_sensitivity": 0.8,
+      "personalization": 0.09999999999999998,
+      "urgency_score": 0.3,
+      "relationship_score": 0.24999999999999997,
+      "safety_score": 0.7,
+      "novelty_score": 0.29999999999999993,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.09999999999999998
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Chain forward message detected (forwarded 9 times).",
+      "Contains repetitive non-personalized content or unverified viral broadcast.",
+      "Sender/group interaction history shows low engagement on forwards."
+    ]
+  },
+  {
+    "message_id": "msg_044",
+    "decision": "mute",
+    "confidence": 0.92,
+    "message_type": "scam",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.8,
+      "relationship": 0.24999999999999997,
+      "safety": 0.4,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.8,
+      "personalization": 0.3,
+      "urgency_score": 0.8,
+      "relationship_score": 0.24999999999999997,
+      "safety_score": 0.4,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Suspicious credential or OTP verification request detected.",
+      "Uses high-pressure security threats (account block/lock) to induce urgency.",
+      "Unverified link or insecure authorization flow detected."
+    ]
+  },
+  {
+    "message_id": "msg_032",
+    "decision": "digest",
+    "confidence": 0.83,
+    "message_type": "event",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.44999999999999996,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.5,
+      "personalization": 0.3,
+      "urgency_score": 0.3,
+      "relationship_score": 0.44999999999999996,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routine casual/social communication in group.",
+      "Non-urgent activity suitable for batched digest review."
+    ]
+  },
+  {
+    "message_id": "msg_106",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "unknown",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.6,
+      "relationship": 0.7,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.9,
+      "personalization": 0.65,
+      "urgency_score": 0.6,
+      "relationship_score": 0.7,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.9,
+      "personalization_score": 0.65
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routed based on general conversational context and user activity patterns."
+    ]
+  },
+  {
+    "message_id": "msg_006",
+    "decision": "notify",
+    "confidence": 0.89,
+    "message_type": "event",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.5,
+      "relationship": 0.75,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.85,
+      "time_sensitivity": 0.8,
+      "personalization": 0.44999999999999996,
+      "urgency_score": 0.5,
+      "relationship_score": 0.75,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.85,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.44999999999999996
+    },
+    "attention_budget": {
+      "notifications_today": 2,
+      "budget_limit": 10,
+      "budget_remaining": 8,
+      "budget_override": false
+    },
+    "evidence": [
+      "Important operational update in society group.",
+      "Time-sensitive community notice relevant to daily routines."
+    ]
+  },
+  {
+    "message_id": "msg_109",
+    "decision": "mute",
+    "confidence": 0.95,
+    "message_type": "scam",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.6,
+      "relationship": 0.24999999999999997,
+      "safety": 0.30000000000000004,
+      "novelty": 0.7,
+      "importance": 0.85,
+      "time_sensitivity": 0.39999999999999997,
+      "personalization": 0.3,
+      "urgency_score": 0.6,
+      "relationship_score": 0.24999999999999997,
+      "safety_score": 0.30000000000000004,
+      "novelty_score": 0.7,
+      "importance_score": 0.85,
+      "time_sensitivity_score": 0.39999999999999997,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 2,
+      "budget_limit": 10,
+      "budget_remaining": 8,
+      "budget_override": false
+    },
+    "evidence": [
+      "Prompt injection attack detected attempting router manipulation.",
+      "Contains malicious instructions trying to bypass safety checks."
+    ]
+  },
+  {
+    "message_id": "msg_108",
+    "decision": "mute",
+    "confidence": 0.92,
+    "message_type": "scam",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.5,
+      "relationship": 0.3,
+      "safety": 0.4,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.8,
+      "personalization": 0.3,
+      "urgency_score": 0.5,
+      "relationship_score": 0.3,
+      "safety_score": 0.4,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Suspicious credential or OTP verification request detected.",
+      "Uses high-pressure security threats (account block/lock) to induce urgency.",
+      "Unverified link or insecure authorization flow detected."
+    ]
+  },
+  {
+    "message_id": "msg_019",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "unknown",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.3,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.6000000000000001,
+      "time_sensitivity": 0.5,
+      "personalization": 0.3,
+      "urgency_score": 0.3,
+      "relationship_score": 0.3,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.6000000000000001,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routed based on general conversational context and user activity patterns."
+    ]
+  },
+  {
+    "message_id": "msg_088",
+    "decision": "digest",
+    "confidence": 0.84,
+    "message_type": "promotion",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.09999999999999998,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.5,
+      "personalization": 0.3,
+      "urgency_score": 0.3,
+      "relationship_score": 0.09999999999999998,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Local buy/sell marketplace listing in community group.",
+      "Useful information but non-blocking for immediate attention."
+    ]
+  },
+  {
+    "message_id": "msg_056",
+    "decision": "notify",
+    "confidence": 0.9,
+    "message_type": "urgent",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.6,
+      "relationship": 0.6,
+      "safety": 0.9,
+      "novelty": 0.8999999999999999,
+      "importance": 0.6000000000000001,
+      "time_sensitivity": 0.8,
+      "personalization": 0.75,
+      "urgency_score": 0.6,
+      "relationship_score": 0.6,
+      "safety_score": 0.9,
+      "novelty_score": 0.8999999999999999,
+      "importance_score": 0.6000000000000001,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.75
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Direct mention (@u_001) overrides group mute setting.",
+      "User is explicitly tagged for direct attention."
+    ]
+  },
+  {
+    "message_id": "msg_027",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "unknown",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.5,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.5,
+      "personalization": 0.3,
+      "urgency_score": 0.3,
+      "relationship_score": 0.5,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routed based on general conversational context and user activity patterns."
+    ]
+  },
+  {
+    "message_id": "msg_050",
+    "decision": "notify",
+    "confidence": 0.91,
+    "message_type": "event",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.3,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.6000000000000001,
+      "time_sensitivity": 0.5,
+      "personalization": 0.3,
+      "urgency_score": 0.3,
+      "relationship_score": 0.3,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.6000000000000001,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Verified business sending transactional order or service update.",
+      "Matches user's active relationship / delivery history."
+    ]
+  },
+  {
+    "message_id": "msg_083",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "unknown",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.44999999999999996,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.85,
+      "time_sensitivity": 0.5,
+      "personalization": 0.3,
+      "urgency_score": 0.3,
+      "relationship_score": 0.44999999999999996,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.85,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routed based on general conversational context and user activity patterns."
+    ]
+  },
+  {
+    "message_id": "msg_063",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "unknown",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.8,
+      "relationship": 0.09999999999999998,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.8,
+      "personalization": 0.3,
+      "urgency_score": 0.8,
+      "relationship_score": 0.09999999999999998,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routed based on general conversational context and user activity patterns."
+    ]
+  },
+  {
+    "message_id": "msg_033",
+    "decision": "digest",
+    "confidence": 0.83,
+    "message_type": "greeting",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.6,
+      "relationship": 0.75,
+      "safety": 0.9,
+      "novelty": 0.5499999999999999,
+      "importance": 0.4,
+      "time_sensitivity": 0.5,
+      "personalization": 0.44999999999999996,
+      "urgency_score": 0.6,
+      "relationship_score": 0.75,
+      "safety_score": 0.9,
+      "novelty_score": 0.5499999999999999,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.44999999999999996
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routine casual/social communication in group.",
+      "Non-urgent activity suitable for batched digest review."
+    ]
+  },
+  {
+    "message_id": "msg_061",
+    "decision": "mute",
+    "confidence": 0.88,
+    "message_type": "forward",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.09999999999999998,
+      "relationship": 0.24999999999999997,
+      "safety": 0.7,
+      "novelty": 0.14999999999999994,
+      "importance": 0.4,
+      "time_sensitivity": 0.5,
+      "personalization": 0.09999999999999998,
+      "urgency_score": 0.09999999999999998,
+      "relationship_score": 0.24999999999999997,
+      "safety_score": 0.7,
+      "novelty_score": 0.14999999999999994,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.09999999999999998
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Chain forward message detected (forwarded 8 times).",
+      "Contains repetitive non-personalized content or unverified viral broadcast.",
+      "Sender/group interaction history shows low engagement on forwards."
+    ]
+  },
+  {
+    "message_id": "msg_020",
+    "decision": "mute",
+    "confidence": 0.92,
+    "message_type": "scam",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.8,
+      "relationship": 0.09999999999999998,
+      "safety": 0.4,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.8,
+      "personalization": 0.3,
+      "urgency_score": 0.8,
+      "relationship_score": 0.09999999999999998,
+      "safety_score": 0.4,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Suspicious credential or OTP verification request detected.",
+      "Uses high-pressure security threats (account block/lock) to induce urgency.",
+      "Unverified link or insecure authorization flow detected."
+    ]
+  },
+  {
+    "message_id": "msg_017",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "unknown",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.8,
+      "relationship": 0.09999999999999998,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.8,
+      "personalization": 0.3,
+      "urgency_score": 0.8,
+      "relationship_score": 0.09999999999999998,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routed based on general conversational context and user activity patterns."
+    ]
+  },
+  {
+    "message_id": "msg_058",
+    "decision": "mute",
+    "confidence": 0.88,
+    "message_type": "spam",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.09999999999999998,
+      "relationship": 0.09999999999999998,
+      "safety": 0.6,
+      "novelty": 0.29999999999999993,
+      "importance": 0.4,
+      "time_sensitivity": 0.5,
+      "personalization": 0.09999999999999998,
+      "urgency_score": 0.09999999999999998,
+      "relationship_score": 0.09999999999999998,
+      "safety_score": 0.6,
+      "novelty_score": 0.29999999999999993,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.09999999999999998
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Chain forward message detected (forwarded 10 times).",
+      "Contains repetitive non-personalized content or unverified viral broadcast.",
+      "Sender/group interaction history shows low engagement on forwards."
+    ]
+  },
+  {
+    "message_id": "msg_026",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "unknown",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.5,
+      "relationship": 0.3,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.6000000000000001,
+      "time_sensitivity": 0.5,
+      "personalization": 0.3,
+      "urgency_score": 0.5,
+      "relationship_score": 0.3,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.6000000000000001,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routed based on general conversational context and user activity patterns."
+    ]
+  },
+  {
+    "message_id": "msg_047",
+    "decision": "notify",
+    "confidence": 0.89,
+    "message_type": "event",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.5,
+      "relationship": 0.75,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.85,
+      "time_sensitivity": 0.39999999999999997,
+      "personalization": 0.44999999999999996,
+      "urgency_score": 0.5,
+      "relationship_score": 0.75,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.85,
+      "time_sensitivity_score": 0.39999999999999997,
+      "personalization_score": 0.44999999999999996
+    },
+    "attention_budget": {
+      "notifications_today": 3,
+      "budget_limit": 10,
+      "budget_remaining": 7,
+      "budget_override": false
+    },
+    "evidence": [
+      "Important operational update in society group.",
+      "Time-sensitive community notice relevant to daily routines."
+    ]
+  },
+  {
+    "message_id": "msg_046",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "unknown",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.24999999999999997,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.5,
+      "personalization": 0.3,
+      "urgency_score": 0.3,
+      "relationship_score": 0.24999999999999997,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routed based on general conversational context and user activity patterns."
+    ]
+  },
+  {
+    "message_id": "msg_042",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "unknown",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.8,
+      "relationship": 0.75,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.85,
+      "time_sensitivity": 0.8,
+      "personalization": 0.44999999999999996,
+      "urgency_score": 0.8,
+      "relationship_score": 0.75,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.85,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.44999999999999996
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routed based on general conversational context and user activity patterns."
+    ]
+  },
+  {
+    "message_id": "msg_079",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "unknown",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.24999999999999997,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.5,
+      "personalization": 0.3,
+      "urgency_score": 0.3,
+      "relationship_score": 0.24999999999999997,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routed based on general conversational context and user activity patterns."
+    ]
+  },
+  {
+    "message_id": "msg_098",
+    "decision": "notify",
+    "confidence": 0.91,
+    "message_type": "urgent",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.7,
+      "relationship": 0.7,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.9,
+      "personalization": 0.65,
+      "urgency_score": 0.7,
+      "relationship_score": 0.7,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.9,
+      "personalization_score": 0.65
+    },
+    "attention_budget": {
+      "notifications_today": 2,
+      "budget_limit": 10,
+      "budget_remaining": 8,
+      "budget_override": false
+    },
+    "evidence": [
+      "High urgency personal context detected.",
+      "Contains time-sensitive request requiring immediate user response."
+    ]
+  },
+  {
+    "message_id": "msg_037",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "unknown",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.75,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.85,
+      "time_sensitivity": 0.5,
+      "personalization": 0.44999999999999996,
+      "urgency_score": 0.3,
+      "relationship_score": 0.75,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.85,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.44999999999999996
+    },
+    "attention_budget": {
+      "notifications_today": 3,
+      "budget_limit": 10,
+      "budget_remaining": 7,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routed based on general conversational context and user activity patterns."
+    ]
+  },
+  {
+    "message_id": "msg_007",
+    "decision": "digest",
+    "confidence": 0.83,
+    "message_type": "event",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.44999999999999996,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.85,
+      "time_sensitivity": 0.5,
+      "personalization": 0.3,
+      "urgency_score": 0.3,
+      "relationship_score": 0.44999999999999996,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.85,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routine casual/social communication in group.",
+      "Non-urgent activity suitable for batched digest review."
+    ]
+  },
+  {
+    "message_id": "msg_085",
+    "decision": "digest",
+    "confidence": 0.82,
+    "message_type": "promotion",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.3,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.09999999999999998,
+      "personalization": 0.3,
+      "urgency_score": 0.3,
+      "relationship_score": 0.3,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.09999999999999998,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Legitimate business notification without immediate action requirement.",
+      "Can be reviewed later in routine notification digest."
+    ]
+  },
+  {
+    "message_id": "msg_001",
+    "decision": "notify",
+    "confidence": 0.89,
+    "message_type": "urgent",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.8,
+      "relationship": 0.6,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.85,
+      "time_sensitivity": 0.8,
+      "personalization": 0.44999999999999996,
+      "urgency_score": 0.8,
+      "relationship_score": 0.6,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.85,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.44999999999999996
+    },
+    "attention_budget": {
+      "notifications_today": 3,
+      "budget_limit": 10,
+      "budget_remaining": 7,
+      "budget_override": false
+    },
+    "evidence": [
+      "Important operational update in society group.",
+      "Time-sensitive community notice relevant to daily routines."
+    ]
+  },
+  {
+    "message_id": "msg_021",
+    "decision": "digest",
+    "confidence": 0.83,
+    "message_type": "personal",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.5,
+      "relationship": 0.75,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.85,
+      "time_sensitivity": 0.8,
+      "personalization": 0.44999999999999996,
+      "urgency_score": 0.5,
+      "relationship_score": 0.75,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.85,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.44999999999999996
+    },
+    "attention_budget": {
+      "notifications_today": 3,
+      "budget_limit": 10,
+      "budget_remaining": 7,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routine casual/social communication in group.",
+      "Non-urgent activity suitable for batched digest review."
+    ]
+  },
+  {
+    "message_id": "msg_028",
+    "decision": "mute",
+    "confidence": 0.88,
+    "message_type": "promotion",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.3,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.5,
+      "personalization": 0.3,
+      "urgency_score": 0.3,
+      "relationship_score": 0.3,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Promotional message from business account user opted out from.",
+      "User historical records show explicit promotion opt-out / high dismissal."
+    ]
+  },
+  {
+    "message_id": "msg_012",
+    "decision": "mute",
+    "confidence": 0.88,
+    "message_type": "spam",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.09999999999999998,
+      "relationship": 0.24999999999999997,
+      "safety": 0.7,
+      "novelty": 0.29999999999999993,
+      "importance": 0.4,
+      "time_sensitivity": 0.5,
+      "personalization": 0.09999999999999998,
+      "urgency_score": 0.09999999999999998,
+      "relationship_score": 0.24999999999999997,
+      "safety_score": 0.7,
+      "novelty_score": 0.29999999999999993,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.09999999999999998
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Chain forward message detected (forwarded 9 times).",
+      "Contains repetitive non-personalized content or unverified viral broadcast.",
+      "Sender/group interaction history shows low engagement on forwards."
+    ]
+  },
+  {
+    "message_id": "msg_064",
+    "decision": "mute",
+    "confidence": 0.92,
+    "message_type": "scam",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.5,
+      "relationship": 0.24999999999999997,
+      "safety": 0.4,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.5,
+      "personalization": 0.3,
+      "urgency_score": 0.5,
+      "relationship_score": 0.24999999999999997,
+      "safety_score": 0.4,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Suspicious credential or OTP verification request detected.",
+      "Uses high-pressure security threats (account block/lock) to induce urgency.",
+      "Unverified link or insecure authorization flow detected."
+    ]
+  },
+  {
+    "message_id": "msg_103",
+    "decision": "notify",
+    "confidence": 0.91,
+    "message_type": "personal",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.4,
+      "relationship": 0.7,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.6,
+      "personalization": 0.65,
+      "urgency_score": 0.4,
+      "relationship_score": 0.7,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.6,
+      "personalization_score": 0.65
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "High urgency personal context detected.",
+      "Contains time-sensitive request requiring immediate user response."
+    ]
+  },
+  {
+    "message_id": "msg_031",
+    "decision": "digest",
+    "confidence": 0.83,
+    "message_type": "event",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.8,
+      "relationship": 0.75,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.85,
+      "time_sensitivity": 0.09999999999999998,
+      "personalization": 0.44999999999999996,
+      "urgency_score": 0.8,
+      "relationship_score": 0.75,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.85,
+      "time_sensitivity_score": 0.09999999999999998,
+      "personalization_score": 0.44999999999999996
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routine casual/social communication in group.",
+      "Non-urgent activity suitable for batched digest review."
+    ]
+  },
+  {
+    "message_id": "msg_057",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "unknown",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.75,
+      "safety": 0.9,
+      "novelty": 0.8999999999999999,
+      "importance": 1.0,
+      "time_sensitivity": 0.5,
+      "personalization": 0.75,
+      "urgency_score": 0.3,
+      "relationship_score": 0.75,
+      "safety_score": 0.9,
+      "novelty_score": 0.8999999999999999,
+      "importance_score": 1.0,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.75
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routed based on general conversational context and user activity patterns."
+    ]
+  },
+  {
+    "message_id": "msg_087",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "unknown",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.09999999999999998,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.2,
+      "time_sensitivity": 0.5,
+      "personalization": 0.3,
+      "urgency_score": 0.3,
+      "relationship_score": 0.09999999999999998,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.2,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routed based on general conversational context and user activity patterns."
+    ]
+  },
+  {
+    "message_id": "msg_067",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "unknown",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.75,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.85,
+      "time_sensitivity": 0.5,
+      "personalization": 0.44999999999999996,
+      "urgency_score": 0.3,
+      "relationship_score": 0.75,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.85,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.44999999999999996
+    },
+    "attention_budget": {
+      "notifications_today": 3,
+      "budget_limit": 10,
+      "budget_remaining": 7,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routed based on general conversational context and user activity patterns."
+    ]
+  },
+  {
+    "message_id": "msg_039",
+    "decision": "digest",
+    "confidence": 0.83,
+    "message_type": "personal",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.5,
+      "relationship": 0.75,
+      "safety": 0.9,
+      "novelty": 0.8999999999999999,
+      "importance": 1.0,
+      "time_sensitivity": 0.39999999999999997,
+      "personalization": 0.75,
+      "urgency_score": 0.5,
+      "relationship_score": 0.75,
+      "safety_score": 0.9,
+      "novelty_score": 0.8999999999999999,
+      "importance_score": 1.0,
+      "time_sensitivity_score": 0.39999999999999997,
+      "personalization_score": 0.75
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routine casual/social communication in group.",
+      "Non-urgent activity suitable for batched digest review."
+    ]
+  },
+  {
+    "message_id": "msg_082",
+    "decision": "digest",
+    "confidence": 0.83,
+    "message_type": "event",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.75,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.85,
+      "time_sensitivity": 0.5,
+      "personalization": 0.44999999999999996,
+      "urgency_score": 0.3,
+      "relationship_score": 0.75,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.85,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.44999999999999996
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routine casual/social communication in group.",
+      "Non-urgent activity suitable for batched digest review."
+    ]
+  },
+  {
+    "message_id": "msg_066",
+    "decision": "mute",
+    "confidence": 0.88,
+    "message_type": "promotion",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.5,
+      "relationship": 0.3,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.2,
+      "time_sensitivity": 0.8,
+      "personalization": 0.3,
+      "urgency_score": 0.5,
+      "relationship_score": 0.3,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.2,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Promotional message from business account user opted out from.",
+      "User historical records show explicit promotion opt-out / high dismissal."
+    ]
+  },
+  {
+    "message_id": "msg_049",
+    "decision": "notify",
+    "confidence": 0.91,
+    "message_type": "event",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.5,
+      "relationship": 0.5,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.6000000000000001,
+      "time_sensitivity": 0.8,
+      "personalization": 0.3,
+      "urgency_score": 0.5,
+      "relationship_score": 0.5,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.6000000000000001,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Verified business sending transactional order or service update.",
+      "Matches user's active relationship / delivery history."
+    ]
+  },
+  {
+    "message_id": "msg_015",
+    "decision": "mute",
+    "confidence": 0.92,
+    "message_type": "scam",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.6,
+      "relationship": 0.44999999999999996,
+      "safety": 0.4,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.8,
+      "personalization": 0.3,
+      "urgency_score": 0.6,
+      "relationship_score": 0.44999999999999996,
+      "safety_score": 0.4,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Suspicious credential or OTP verification request detected.",
+      "Uses high-pressure security threats (account block/lock) to induce urgency.",
+      "Unverified link or insecure authorization flow detected."
+    ]
+  },
+  {
+    "message_id": "msg_051",
+    "decision": "mute",
+    "confidence": 0.88,
+    "message_type": "promotion",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.5,
+      "relationship": 0.3,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.2,
+      "time_sensitivity": 0.8,
+      "personalization": 0.3,
+      "urgency_score": 0.5,
+      "relationship_score": 0.3,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.2,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Promotional message from business account user opted out from.",
+      "User historical records show explicit promotion opt-out / high dismissal."
+    ]
+  },
+  {
+    "message_id": "msg_097",
+    "decision": "notify",
+    "confidence": 0.91,
+    "message_type": "urgent",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.7,
+      "relationship": 0.7,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.9,
+      "personalization": 0.65,
+      "urgency_score": 0.7,
+      "relationship_score": 0.7,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.9,
+      "personalization_score": 0.65
+    },
+    "attention_budget": {
+      "notifications_today": 4,
+      "budget_limit": 10,
+      "budget_remaining": 6,
+      "budget_override": false
+    },
+    "evidence": [
+      "High urgency personal context detected.",
+      "Contains time-sensitive request requiring immediate user response."
+    ]
+  },
+  {
+    "message_id": "msg_089",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "personal",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.6,
+      "relationship": 0.4,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.9,
+      "personalization": 0.5,
+      "urgency_score": 0.6,
+      "relationship_score": 0.4,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.9,
+      "personalization_score": 0.5
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Standard personal message with low urgency.",
+      "No immediate action required, saved for digest."
+    ]
+  },
+  {
+    "message_id": "msg_053",
+    "decision": "mute",
+    "confidence": 0.88,
+    "message_type": "forward",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.09999999999999998,
+      "relationship": 0.44999999999999996,
+      "safety": 0.7,
+      "novelty": 0.29999999999999993,
+      "importance": 0.4,
+      "time_sensitivity": 0.5,
+      "personalization": 0.09999999999999998,
+      "urgency_score": 0.09999999999999998,
+      "relationship_score": 0.44999999999999996,
+      "safety_score": 0.7,
+      "novelty_score": 0.29999999999999993,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.09999999999999998
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Chain forward message detected (forwarded 6 times).",
+      "Contains repetitive non-personalized content or unverified viral broadcast.",
+      "Sender/group interaction history shows low engagement on forwards."
+    ]
+  },
+  {
+    "message_id": "msg_059",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "unknown",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.5,
+      "relationship": 0.24999999999999997,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.8,
+      "personalization": 0.3,
+      "urgency_score": 0.5,
+      "relationship_score": 0.24999999999999997,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routed based on general conversational context and user activity patterns."
+    ]
+  },
+  {
+    "message_id": "msg_024",
+    "decision": "mute",
+    "confidence": 0.88,
+    "message_type": "promotion",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.5,
+      "relationship": 0.3,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.2,
+      "time_sensitivity": 0.8,
+      "personalization": 0.3,
+      "urgency_score": 0.5,
+      "relationship_score": 0.3,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.2,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Promotional message from business account user opted out from.",
+      "User historical records show explicit promotion opt-out / high dismissal."
+    ]
+  },
+  {
+    "message_id": "msg_072",
+    "decision": "mute",
+    "confidence": 0.92,
+    "message_type": "scam",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.44999999999999996,
+      "safety": 0.4,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.5,
+      "personalization": 0.3,
+      "urgency_score": 0.3,
+      "relationship_score": 0.44999999999999996,
+      "safety_score": 0.4,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Suspicious credential or OTP verification request detected.",
+      "Uses high-pressure security threats (account block/lock) to induce urgency.",
+      "Unverified link or insecure authorization flow detected."
+    ]
+  },
+  {
+    "message_id": "msg_036",
+    "decision": "digest",
+    "confidence": 0.82,
+    "message_type": "promotion",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.3,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.5,
+      "personalization": 0.3,
+      "urgency_score": 0.3,
+      "relationship_score": 0.3,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Legitimate business notification without immediate action requirement.",
+      "Can be reviewed later in routine notification digest."
+    ]
+  },
+  {
+    "message_id": "msg_076",
+    "decision": "notify",
+    "confidence": 0.91,
+    "message_type": "business_update",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.5,
+      "relationship": 0.3,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.6000000000000001,
+      "time_sensitivity": 0.8,
+      "personalization": 0.3,
+      "urgency_score": 0.5,
+      "relationship_score": 0.3,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.6000000000000001,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 2,
+      "budget_limit": 10,
+      "budget_remaining": 8,
+      "budget_override": false
+    },
+    "evidence": [
+      "Verified business sending transactional order or service update.",
+      "Matches user's active relationship / delivery history."
+    ]
+  },
+  {
+    "message_id": "msg_055",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "unknown",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.6,
+      "relationship": 0.75,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.09999999999999998,
+      "personalization": 0.44999999999999996,
+      "urgency_score": 0.6,
+      "relationship_score": 0.75,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.09999999999999998,
+      "personalization_score": 0.44999999999999996
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routed based on general conversational context and user activity patterns."
+    ]
+  },
+  {
+    "message_id": "msg_102",
+    "decision": "notify",
+    "confidence": 0.91,
+    "message_type": "urgent",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.7,
+      "relationship": 0.7,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.6,
+      "personalization": 0.65,
+      "urgency_score": 0.7,
+      "relationship_score": 0.7,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.6,
+      "personalization_score": 0.65
+    },
+    "attention_budget": {
+      "notifications_today": 2,
+      "budget_limit": 10,
+      "budget_remaining": 8,
+      "budget_override": false
+    },
+    "evidence": [
+      "High urgency personal context detected.",
+      "Contains time-sensitive request requiring immediate user response."
+    ]
+  },
+  {
+    "message_id": "msg_080",
+    "decision": "notify",
+    "confidence": 0.89,
+    "message_type": "urgent",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.75,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.85,
+      "time_sensitivity": 0.5,
+      "personalization": 0.44999999999999996,
+      "urgency_score": 0.3,
+      "relationship_score": 0.75,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.85,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.44999999999999996
+    },
+    "attention_budget": {
+      "notifications_today": 4,
+      "budget_limit": 10,
+      "budget_remaining": 6,
+      "budget_override": false
+    },
+    "evidence": [
+      "Important operational update in society group.",
+      "Time-sensitive community notice relevant to daily routines."
+    ]
+  },
+  {
+    "message_id": "msg_093",
+    "decision": "notify",
+    "confidence": 0.91,
+    "message_type": "business_update",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.5,
+      "relationship": 0.3,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.6000000000000001,
+      "time_sensitivity": 0.39999999999999997,
+      "personalization": 0.3,
+      "urgency_score": 0.5,
+      "relationship_score": 0.3,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.6000000000000001,
+      "time_sensitivity_score": 0.39999999999999997,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Verified business sending transactional order or service update.",
+      "Matches user's active relationship / delivery history."
+    ]
+  },
+  {
+    "message_id": "msg_034",
+    "decision": "mute",
+    "confidence": 0.88,
+    "message_type": "forward",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.39999999999999997,
+      "relationship": 0.09999999999999998,
+      "safety": 0.7,
+      "novelty": 0.14999999999999994,
+      "importance": 0.4,
+      "time_sensitivity": 0.5,
+      "personalization": 0.09999999999999998,
+      "urgency_score": 0.39999999999999997,
+      "relationship_score": 0.09999999999999998,
+      "safety_score": 0.7,
+      "novelty_score": 0.14999999999999994,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.09999999999999998
+    },
+    "attention_budget": {
+      "notifications_today": 4,
+      "budget_limit": 10,
+      "budget_remaining": 6,
+      "budget_override": false
+    },
+    "evidence": [
+      "Chain forward message detected (forwarded 11 times).",
+      "Contains repetitive non-personalized content or unverified viral broadcast.",
+      "Sender/group interaction history shows low engagement on forwards."
+    ]
+  },
+  {
+    "message_id": "msg_035",
+    "decision": "digest",
+    "confidence": 0.82,
+    "message_type": "promotion",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.5,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.5,
+      "personalization": 0.3,
+      "urgency_score": 0.3,
+      "relationship_score": 0.5,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Legitimate business notification without immediate action requirement.",
+      "Can be reviewed later in routine notification digest."
+    ]
+  },
+  {
+    "message_id": "msg_101",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "personal",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.4,
+      "relationship": 0.4,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.19999999999999998,
+      "personalization": 0.5,
+      "urgency_score": 0.4,
+      "relationship_score": 0.4,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.19999999999999998,
+      "personalization_score": 0.5
+    },
+    "attention_budget": {
+      "notifications_today": 2,
+      "budget_limit": 10,
+      "budget_remaining": 8,
+      "budget_override": false
+    },
+    "evidence": [
+      "Standard personal message with low urgency.",
+      "No immediate action required, saved for digest."
+    ]
+  },
+  {
+    "message_id": "msg_041",
+    "decision": "digest",
+    "confidence": 0.82,
+    "message_type": "promotion",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.5,
+      "relationship": 0.3,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.8,
+      "personalization": 0.3,
+      "urgency_score": 0.5,
+      "relationship_score": 0.3,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 4,
+      "budget_limit": 10,
+      "budget_remaining": 6,
+      "budget_override": false
+    },
+    "evidence": [
+      "Legitimate business notification without immediate action requirement.",
+      "Can be reviewed later in routine notification digest."
+    ]
+  },
+  {
+    "message_id": "msg_011",
+    "decision": "mute",
+    "confidence": 0.88,
+    "message_type": "forward",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.09999999999999998,
+      "safety": 0.7,
+      "novelty": 0.14999999999999994,
+      "importance": 0.4,
+      "time_sensitivity": 0.8,
+      "personalization": 0.09999999999999998,
+      "urgency_score": 0.3,
+      "relationship_score": 0.09999999999999998,
+      "safety_score": 0.7,
+      "novelty_score": 0.14999999999999994,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.09999999999999998
+    },
+    "attention_budget": {
+      "notifications_today": 4,
+      "budget_limit": 10,
+      "budget_remaining": 6,
+      "budget_override": false
+    },
+    "evidence": [
+      "Chain forward message detected (forwarded 8 times).",
+      "Contains repetitive non-personalized content or unverified viral broadcast.",
+      "Sender/group interaction history shows low engagement on forwards."
+    ]
+  },
+  {
+    "message_id": "msg_110",
+    "decision": "mute",
+    "confidence": 0.95,
+    "message_type": "scam",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.7,
+      "relationship": 0.19999999999999998,
+      "safety": 0.30000000000000004,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.6,
+      "personalization": 0.5,
+      "urgency_score": 0.7,
+      "relationship_score": 0.19999999999999998,
+      "safety_score": 0.30000000000000004,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.6,
+      "personalization_score": 0.5
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Prompt injection attack detected attempting router manipulation.",
+      "Contains malicious instructions trying to bypass safety checks."
+    ]
+  },
+  {
+    "message_id": "msg_095",
+    "decision": "mute",
+    "confidence": 0.95,
+    "message_type": "scam",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.4,
+      "relationship": 0.19999999999999998,
+      "safety": 0.0,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.6,
+      "personalization": 0.5,
+      "urgency_score": 0.4,
+      "relationship_score": 0.19999999999999998,
+      "safety_score": 0.0,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.6,
+      "personalization_score": 0.5
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Prompt injection attack detected attempting router manipulation.",
+      "Contains malicious instructions trying to bypass safety checks."
+    ]
+  },
+  {
+    "message_id": "msg_074",
+    "decision": "mute",
+    "confidence": 0.88,
+    "message_type": "forward",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.09999999999999998,
+      "safety": 0.7,
+      "novelty": 0.29999999999999993,
+      "importance": 0.4,
+      "time_sensitivity": 0.8,
+      "personalization": 0.09999999999999998,
+      "urgency_score": 0.3,
+      "relationship_score": 0.09999999999999998,
+      "safety_score": 0.7,
+      "novelty_score": 0.29999999999999993,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.09999999999999998
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Chain forward message detected (forwarded 7 times).",
+      "Contains repetitive non-personalized content or unverified viral broadcast.",
+      "Sender/group interaction history shows low engagement on forwards."
+    ]
+  },
+  {
+    "message_id": "msg_073",
+    "decision": "mute",
+    "confidence": 0.88,
+    "message_type": "forward",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.6000000000000001,
+      "relationship": 0.24999999999999997,
+      "safety": 0.7,
+      "novelty": 0.29999999999999993,
+      "importance": 0.4,
+      "time_sensitivity": 0.8,
+      "personalization": 0.09999999999999998,
+      "urgency_score": 0.6000000000000001,
+      "relationship_score": 0.24999999999999997,
+      "safety_score": 0.7,
+      "novelty_score": 0.29999999999999993,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.09999999999999998
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Chain forward message detected (forwarded 9 times).",
+      "Contains repetitive non-personalized content or unverified viral broadcast.",
+      "Sender/group interaction history shows low engagement on forwards."
+    ]
+  },
+  {
+    "message_id": "msg_054",
+    "decision": "mute",
+    "confidence": 0.86,
+    "message_type": "spam",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.5,
+      "relationship": 0.24999999999999997,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.8,
+      "personalization": 0.3,
+      "urgency_score": 0.5,
+      "relationship_score": 0.24999999999999997,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Unsolicited financial / real estate promotion in group chat.",
+      "High risk or low relevance marketing post."
+    ]
+  },
+  {
+    "message_id": "msg_068",
+    "decision": "digest",
+    "confidence": 0.83,
+    "message_type": "personal",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.44999999999999996,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.5,
+      "personalization": 0.3,
+      "urgency_score": 0.3,
+      "relationship_score": 0.44999999999999996,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routine casual/social communication in group.",
+      "Non-urgent activity suitable for batched digest review."
+    ]
+  },
+  {
+    "message_id": "msg_100",
+    "decision": "notify",
+    "confidence": 0.91,
+    "message_type": "urgent",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.7,
+      "relationship": 0.7,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.9,
+      "personalization": 0.65,
+      "urgency_score": 0.7,
+      "relationship_score": 0.7,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.9,
+      "personalization_score": 0.65
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "High urgency personal context detected.",
+      "Contains time-sensitive request requiring immediate user response."
+    ]
+  },
+  {
+    "message_id": "msg_062",
+    "decision": "mute",
+    "confidence": 0.88,
+    "message_type": "forward",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.09999999999999998,
+      "relationship": 0.75,
+      "safety": 0.7,
+      "novelty": 0.29999999999999993,
+      "importance": 0.85,
+      "time_sensitivity": 0.09999999999999998,
+      "personalization": 0.24999999999999994,
+      "urgency_score": 0.09999999999999998,
+      "relationship_score": 0.75,
+      "safety_score": 0.7,
+      "novelty_score": 0.29999999999999993,
+      "importance_score": 0.85,
+      "time_sensitivity_score": 0.09999999999999998,
+      "personalization_score": 0.24999999999999994
+    },
+    "attention_budget": {
+      "notifications_today": 4,
+      "budget_limit": 10,
+      "budget_remaining": 6,
+      "budget_override": false
+    },
+    "evidence": [
+      "Chain forward message detected (forwarded 7 times).",
+      "Contains repetitive non-personalized content or unverified viral broadcast.",
+      "Sender/group interaction history shows low engagement on forwards."
+    ]
+  },
+  {
+    "message_id": "msg_096",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "personal",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.4,
+      "relationship": 0.4,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.4,
+      "time_sensitivity": 0.6,
+      "personalization": 0.5,
+      "urgency_score": 0.4,
+      "relationship_score": 0.4,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.4,
+      "time_sensitivity_score": 0.6,
+      "personalization_score": 0.5
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Standard personal message with low urgency.",
+      "No immediate action required, saved for digest."
+    ]
+  },
+  {
+    "message_id": "msg_043",
+    "decision": "mute",
+    "confidence": 0.88,
+    "message_type": "forward",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.6000000000000001,
+      "relationship": 0.75,
+      "safety": 0.7,
+      "novelty": 0.29999999999999993,
+      "importance": 0.85,
+      "time_sensitivity": 0.8,
+      "personalization": 0.24999999999999994,
+      "urgency_score": 0.6000000000000001,
+      "relationship_score": 0.75,
+      "safety_score": 0.7,
+      "novelty_score": 0.29999999999999993,
+      "importance_score": 0.85,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.24999999999999994
+    },
+    "attention_budget": {
+      "notifications_today": 4,
+      "budget_limit": 10,
+      "budget_remaining": 6,
+      "budget_override": false
+    },
+    "evidence": [
+      "Chain forward message detected (forwarded 11 times).",
+      "Contains repetitive non-personalized content or unverified viral broadcast.",
+      "Sender/group interaction history shows low engagement on forwards."
+    ]
+  },
+  {
+    "message_id": "msg_077",
+    "decision": "notify",
+    "confidence": 0.89,
+    "message_type": "event",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.75,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.85,
+      "time_sensitivity": 0.09999999999999998,
+      "personalization": 0.44999999999999996,
+      "urgency_score": 0.3,
+      "relationship_score": 0.75,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.85,
+      "time_sensitivity_score": 0.09999999999999998,
+      "personalization_score": 0.44999999999999996
+    },
+    "attention_budget": {
+      "notifications_today": 1,
+      "budget_limit": 10,
+      "budget_remaining": 9,
+      "budget_override": false
+    },
+    "evidence": [
+      "Important operational update in school_group group.",
+      "Time-sensitive community notice relevant to daily routines."
+    ]
+  },
+  {
+    "message_id": "msg_081",
+    "decision": "notify",
+    "confidence": 0.89,
+    "message_type": "event",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.6,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.85,
+      "time_sensitivity": 0.5,
+      "personalization": 0.44999999999999996,
+      "urgency_score": 0.3,
+      "relationship_score": 0.6,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.85,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.44999999999999996
+    },
+    "attention_budget": {
+      "notifications_today": 5,
+      "budget_limit": 10,
+      "budget_remaining": 5,
+      "budget_override": false
+    },
+    "evidence": [
+      "Important operational update in school_group group.",
+      "Time-sensitive community notice relevant to daily routines."
+    ]
+  },
+  {
+    "message_id": "msg_025",
+    "decision": "notify",
+    "confidence": 0.91,
+    "message_type": "business_update",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.5,
+      "relationship": 0.3,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.6000000000000001,
+      "time_sensitivity": 0.8,
+      "personalization": 0.3,
+      "urgency_score": 0.5,
+      "relationship_score": 0.3,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.6000000000000001,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 6,
+      "budget_limit": 10,
+      "budget_remaining": 4,
+      "budget_override": false
+    },
+    "evidence": [
+      "Verified business sending transactional order or service update.",
+      "Matches user's active relationship / delivery history."
+    ]
+  },
+  {
+    "message_id": "msg_084",
+    "decision": "digest",
+    "confidence": 0.85,
+    "message_type": "unknown",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.3,
+      "relationship": 0.3,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.2,
+      "time_sensitivity": 0.5,
+      "personalization": 0.3,
+      "urgency_score": 0.3,
+      "relationship_score": 0.3,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.2,
+      "time_sensitivity_score": 0.5,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 0,
+      "budget_limit": 10,
+      "budget_remaining": 10,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routed based on general conversational context and user activity patterns."
+    ]
+  },
+  {
+    "message_id": "msg_022",
+    "decision": "digest",
+    "confidence": 0.83,
+    "message_type": "personal",
+    "reasoning_path": "LLM",
+    "confidence_gate": "passed",
+    "feature_scores": {
+      "urgency": 0.5,
+      "relationship": 0.24999999999999997,
+      "safety": 0.9,
+      "novelty": 0.7,
+      "importance": 0.55,
+      "time_sensitivity": 0.8,
+      "personalization": 0.3,
+      "urgency_score": 0.5,
+      "relationship_score": 0.24999999999999997,
+      "safety_score": 0.9,
+      "novelty_score": 0.7,
+      "importance_score": 0.55,
+      "time_sensitivity_score": 0.8,
+      "personalization_score": 0.3
+    },
+    "attention_budget": {
+      "notifications_today": 4,
+      "budget_limit": 10,
+      "budget_remaining": 6,
+      "budget_override": false
+    },
+    "evidence": [
+      "Routine casual/social communication in group.",
+      "Non-urgent activity suitable for batched digest review."
+    ]
+  }
+]
