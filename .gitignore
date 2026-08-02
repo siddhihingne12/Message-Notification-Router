@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+log.txt
+transcript.txt
+generate_chat_transcript.py
+code.zip
