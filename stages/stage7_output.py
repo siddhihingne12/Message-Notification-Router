@@ -15,11 +15,13 @@ def write_output(decisions, data_dir='dataset'):
     
     rows = []
     for d in decisions:
+        # Join reasons with " | " to avoid commas/semicolons breaking CSV columns
+        reason_text = ' | '.join(d['reasons'])
         rows.append({
             'message_id': d['message_id'],
             'action': d['action'],
             'message_type': d['message_type'],
-            'reason': '; '.join(d['reasons']),
+            'reason': reason_text,
             'confidence': f"{d['confidence']:.2f}",
             'evidence_message_ids': d['evidence_message_ids']
         })
